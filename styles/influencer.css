@@ -168,6 +168,20 @@ main {
     margin: 0;
 }
 
+/* footer */
+footer {
+    text-align: center;
+    background: #0A0826;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 /* Responsive */
 @media screen and (max-width:576px) {
 
@@ -176,18 +190,29 @@ main {
         flex-direction: column;
     }
 
-    .banner {
+    .banner,
+    .feature {
         flex-direction: column-reverse;
         gap: 0;
 
     }
 
-    .banner-content {
+    .feature {
+        gap: 50px;
+    }
+
+    .feature img {
+        width: 100%;
+    }
+
+    .banner-content,
+    .feature-content {
         text-align: center;
         margin: 0 auto;
     }
 
-    .banner-btn {
+    .banner-btn,
+    .btn-feature {
         margin: 0 auto;
     }
 
@@ -195,5 +220,9 @@ main {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         margin: 40px 100px;
+    }
+
+    footer {
+        width: 100%;
     }
 }
