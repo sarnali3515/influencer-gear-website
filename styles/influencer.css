@@ -141,6 +141,8 @@ main {
 .feature {
     margin: 70px auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 100px;
 }
 
@@ -213,7 +215,7 @@ footer h3 {
         margin: 0 auto;
     }
 
-    .banner-img {
+    .banner-img img {
         width: 100%;
     }
 
