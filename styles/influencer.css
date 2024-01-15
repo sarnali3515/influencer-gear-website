@@ -231,7 +231,7 @@ footer h3 {
     .advertise {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        margin: 40px auto;
+        margin: 40px 80px;
     }
 
     .feature {
