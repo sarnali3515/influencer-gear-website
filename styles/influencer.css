@@ -177,6 +177,7 @@ footer {
     color: #FFF;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin: 0;
 }
 
 footer h3 {
@@ -194,6 +195,10 @@ footer h3 {
 
     nav {
         width: 100%;
+    }
+
+    nav ul {
+        gap: 10px;
     }
 
     nav li {
@@ -226,7 +231,7 @@ footer h3 {
     .advertise {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        margin: 40px 100px;
+        margin: 40px auto;
     }
 
     .feature {
