@@ -190,6 +190,10 @@ footer h3 {
         flex-direction: column;
     }
 
+    nav {
+        width: 100%;
+    }
+
     .banner,
     .feature {
         flex-direction: column-reverse;
@@ -197,13 +201,6 @@ footer h3 {
 
     }
 
-    .feature {
-        gap: 50px;
-    }
-
-    .feature img {
-        width: 100%;
-    }
 
     .banner-content,
     .feature-content {
@@ -216,10 +213,22 @@ footer h3 {
         margin: 0 auto;
     }
 
+    .banner-img {
+        width: 100%;
+    }
+
     .advertise {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
         margin: 40px 100px;
+    }
+
+    .feature {
+        gap: 50px;
+    }
+
+    .feature img {
+        width: 100%;
     }
 
     footer {
